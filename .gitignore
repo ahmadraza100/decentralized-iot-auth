@@ -1,0 +1,83 @@
+# Hyperledger Fabric
+fabric-samples/
+network/organizations/
+*.block
+*.tx
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.env
+.env.local
+.env.*.local
+
+# Go
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+error.log
+combined.log
+
+# Certificates and Keys
+*.pem
+*.key
+*.crt
+*.csr
+*.srl
+
+# Build and Distribution
+dist/
+build/
+bin/
+target/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Testing
+coverage/
+.nyc_output/
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Debug files
+debug/
+.debug/
+
+# Misc
+.cache/
+.project
+.settings/
+*.bak
+*.backup
+*.old
+*.save
+.history/
